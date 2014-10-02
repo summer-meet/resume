@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2014.8.9)  2 OCT 2014 08:33
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2014.8.9)  2 OCT 2014 15:24
 entering extended mode
 **cv-qs.tex
-(E:\GitHUB\cv\cv-qs.tex
+(E:\GitHUB\myCV\cv-qs.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -208,19 +208,31 @@ LaTeX Font Info:    Try loading font information for EU1+lmr on input line 100.
 
 (E:\MikTex\tex\latex\euenc\eu1lmr.fd
 File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
+)
+Requested font "[lmroman10-regular]:mapping=tex-text" at 10.0pt
+ -> E:/MikTex/fonts/opentype/public/lm/lmroman10-regular.otf
+)
 (E:\MikTex\tex\xelatex\xunicode\xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
 other characters in Unicode lower plane
 
 (C:\Users\kitchen\AppData\Roaming\MiKTeX\2.9\tex\latex\tipa\t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
+Requested font "[lmromanslant10-regular]:mapping=tex-text" at 10.0pt
+ -> E:/MikTex/fonts/opentype/public/lm/lmromanslant10-regular.otf
+Requested font "[lmroman10-italic]:mapping=tex-text" at 10.0pt
+ -> E:/MikTex/fonts/opentype/public/lm/lmroman10-italic.otf
+Requested font "[lmroman10-bold]:mapping=tex-text" at 10.0pt
+ -> E:/MikTex/fonts/opentype/public/lm/lmroman10-bold.otf
 LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357
 .
 
 (E:\MikTex\tex\latex\euenc\eu1lmss.fd
 File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
+)
+Requested font "[lmsans10-regular]:mapping=tex-text" at 10.0pt
+ -> E:/MikTex/fonts/opentype/public/lm/lmsans10-regular.otf
+)
 \tipaTiiicode=\count119
 \tipasavetokens=\toks14
 \tipachecktokens=\toks15
@@ -635,6 +647,7 @@ Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count131
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen170
+Requested font "pzdr" at 0.00002pt
 \Fld@menulength=\count132
 \Field@Width=\dimen171
 \Fld@charsize=\dimen172
@@ -684,12 +697,20 @@ tly
 Package hyperref Info: Option `colorlinks' set `true' on input line 22.
 Package hyperref Info: Option `breaklinks' set `true' on input line 22.
 \g__file_internal_ior=\read1
+Requested font "[fonts/Fontin-Regular]/ICU" at 10.0pt
+ -> E:/GitHUB/myCV/fonts/Fontin-Regular.otf
 .................................................
 . fontspec info: "no-scripts"
 . 
 . Font Fontin-Regular does not contain any OpenType `Script' information.
 .................................................
 \g_fontspec_family_Fontin-Regular_int=\count140
+Requested font "[fonts/Fontin-SmallCaps]/ICU" at 10.0pt
+ -> E:/GitHUB/myCV/fonts/Fontin-SmallCaps.otf
+Requested font "[fonts/Fontin-Bold]/ICU" at 10.0pt
+ -> E:/GitHUB/myCV/fonts/Fontin-Bold.otf
+Requested font "[fonts/Fontin-Italic]/ICU" at 10.0pt
+ -> E:/GitHUB/myCV/fonts/Fontin-Italic.otf
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -724,6 +745,8 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 22.
 . * 'bold italic small caps' with NFSS spec.:
 . <->"[fonts/Fontin-SmallCaps]/ICU:mapping=tex-text;"
 .................................................
+Requested font "[fonts/Fontin-Regular]/ICU:mapping=tex-text;" at 10.0pt
+ -> E:/GitHUB/myCV/fonts/Fontin-Regular.otf
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -756,7 +779,7 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 22.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (E:\GitHUB\cv\cv-qs.aux)
+ (E:\GitHUB\myCV\cv-qs.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
@@ -900,24 +923,48 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
- (E:\GitHUB\cv\cv-qs.out)
-(E:\GitHUB\cv\cv-qs.out)
+ (E:\GitHUB\myCV\cv-qs.out) (E:\GitHUB\myCV\cv-qs.out)
 \@outlinefile=\write3
+Requested font "[cmr10]" scaled 1000
+ -> E:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb
+Requested font "[fonts/Fontin-Regular]/ICU:mapping=tex-text;" at 24.88pt
+ -> E:/GitHUB/myCV/fonts/Fontin-Regular.otf
+Requested font "[fonts/Fontin-SmallCaps]/ICU:mapping=tex-text;" at 24.88pt
+ -> E:/GitHUB/myCV/fonts/Fontin-SmallCaps.otf
+Requested font "[fonts/Fontin-Regular]/ICU:mapping=tex-text;" at 7.0pt
+ -> E:/GitHUB/myCV/fonts/Fontin-Regular.otf
+Requested font "[fonts/Fontin-Regular]/ICU:mapping=tex-text;" at 5.0pt
+ -> E:/GitHUB/myCV/fonts/Fontin-Regular.otf
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 51.
+Requested font "[fonts/Fontin-Regular]/ICU:mapping=tex-text;" at 9.0pt
+ -> E:/GitHUB/myCV/fonts/Fontin-Regular.otf
 LaTeX Font Info:    Try loading font information for U+mvs on input line 56.
 
 (C:\Users\kitchen\AppData\Roaming\MiKTeX\2.9\tex\latex\marvosym\umvs.fd)
+Requested font "umvs" at 10.0pt
+
 Overfull \hbox (30.30907pt too wide) in paragraph at lines 51--66
  [][] 
  []
 
+Requested font "[fonts/Fontin-Regular]/ICU:mapping=tex-text;" at 14.4pt
+ -> E:/GitHUB/myCV/fonts/Fontin-Regular.otf
+Requested font "[fonts/Fontin-SmallCaps]/ICU:mapping=tex-text;" at 14.4pt
+ -> E:/GitHUB/myCV/fonts/Fontin-SmallCaps.otf
 (E:\MikTex\tex\generic\oberdiek\se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 )
+Requested font "[fonts/Fontin-Bold]/ICU:mapping=tex-text;" at 10.0pt
+ -> E:/GitHUB/myCV/fonts/Fontin-Bold.otf
+Requested font "[fonts/Fontin-SmallCaps]/ICU:mapping=tex-text;" at 10.0pt
+ -> E:/GitHUB/myCV/fonts/Fontin-SmallCaps.otf
+Requested font "[fonts/Fontin-Italic]/ICU:mapping=tex-text;" at 10.0pt
+ -> E:/GitHUB/myCV/fonts/Fontin-Italic.otf
+
 Overfull \hbox (3.64899pt too wide) in paragraph at lines 81--114
  [][] 
  []
@@ -933,14 +980,14 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
- (E:\GitHUB\cv\cv-qs.aux)
+ (E:\GitHUB\myCV\cv-qs.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 146.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 146.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
  ) 
 Here is how much of TeX's memory you used:
  21973 strings out of 429025
- 395782 string characters out of 3170807
+ 395792 string characters out of 3170807
  470016 words of memory out of 3000000
  25097 multiletter control sequences out of 15000+200000
  4589 words of font info for 37 fonts, out of 3000000 for 9000
