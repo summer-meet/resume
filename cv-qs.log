@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2014.8.9)  3 OCT 2014 00:52
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2014.8.9)  6 OCT 2014 19:27
 entering extended mode
 **cv-qs.tex
 (E:\GitHUB\myCV\cv-qs.tex
@@ -922,25 +922,25 @@ Overfull \hbox (3.64899pt too wide) in paragraph at lines 81--114
  []
 
 
-Overfull \hbox (1.77858pt too wide) in paragraph at lines 133--142
+Overfull \hbox (1.77858pt too wide) in paragraph at lines 133--141
  [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
 [1
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (E:\GitHUB\myCV\cv-qs.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 146.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 146.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 145.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 145.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 145.
  ) 
 Here is how much of TeX's memory you used:
  21975 strings out of 429025
  395864 string characters out of 3170807
- 470016 words of memory out of 3000000
+ 469016 words of memory out of 3000000
  25098 multiletter control sequences out of 15000+200000
  4597 words of font info for 38 fonts, out of 3000000 for 9000
  913 hyphenation exceptions out of 8191
