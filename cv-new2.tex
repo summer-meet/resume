@@ -1,0 +1,147 @@
+%based on the guide at http://www.cv-templates.info/2009/03/professional-cv-latex/
+\documentclass[a4paper,10pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** \usepackage{fullpage} **
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+\usepackage{paralist}
+\usepackage{geometry}                     %for setting the margin
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{xcolor}
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\usepackage{marvosym} %symbol
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%FONTS
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[ Path = fonts/, BoldFont = Fontin-Bold, BoldItalicFont = Fontin-Bold, ItalicFont = Fontin-Italic, SmallCapsFont = Fontin-SmallCaps]{Fontin-Regular}
+%\setmainfont[Path = fonts/, BoldFont = LinLibertine_RB.otf, ItalicFont = LinLibertine_RI.otf, BoldItalicFont = LinLibertine_RBI.otf, SlantedFont = LinLibertine_aRL.otf, BoldSlantedFont = LinLibertine_aBL.otf, SmallCapsFont = LinLibertine_aS.otf, Mapping = tex-text]{LinLibertine_R.otf}
+%\setmainfont[ Path = fonts/, BoldFont = GILB, BoldItalicFont = GILBI, ItalicFont = GILI, SmallCapsFont = GILC]{GIL}
+\setmainfont[ Path = fonts/, BoldFont = timesbd, BoldItalicFont = timesbi, ItalicFont = timesi, SmallCapsFont = times]{times}
+%CV Sections inspired by:
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+%Italian hyphenation for the word: ''corporations''
+\hyphenation{im-pre-se}
+\newgeometry{left=1.5cm,right=1.5cm,top=2.0cm, bottom=0.5cm}  %20140829 top 1.5-->2.5
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb="[cmr10]" %for use with \LaTeX command
+\centering
+  { \Huge \textsc{Qichen} \textsc{Song}
+\vspace{0.7em}}\bigskip
+
+%-------------------Demarcation---------
+\hrule height 0.7mm \vspace{-0.4em}
+\begin{tabular}{p{9.8cm}p{2.9cm}p{4.9cm}}
+%------------------Basic info-----------
+ %  \textsc{Address:}
+   {\small ZISONG6\#325, Huazhong Univ. of Sci. \& Tech., Wuhan, 430074, China}
+  %&\textsc{Phone:}
+  & \large{\Telefon} {\small +86 131 6323 8726}
+   %\multirow{3}{*}{ \Huge Qichen \textsc{Song}} \\
+  % &\textsc{email:}
+   & \large{\Letter} {\small \href{mailto:kitchensong@gmail.com}{\textcolor{black}{kitchensong@gmail.com}}}\\
+%--------------------TITLE-------------
+%\par{
+ % { \Huge Qichen \textsc{Song}
+%}\bigskip\par}
+\end{tabular}
+%--------------------SECTIONS-----------------------------------
+
+%Section: Education
+
+\section{Education}
+
+\begin{tabular}{rp{12cm}|l}
+    &  \hspace{-1em} \textbf{Huazhong University of Science and Technology (HUST)}\textsc{, Sep. 2011 -} \textsc{Present}&\textbf{Standard Tests}\\
+   &\hspace{-1em} \textsc{Major:} Thermal Energy and Power Engineering
+         &TOFEL: 107 (R29 L30 S23 W25) \\
+&\hspace{-1em} \textsc{Degree:} Bachelor of Engineering, expected June 2015 &GRE: V152+Q170+AW4.0 \\
+&\hspace{-1em} \textsc{Overall GPA:} \textbf{92.1/100} \hspace{1em} \textsc{Overall Rank:} \textbf{1/366}&\\
+\end{tabular}
+
+%Section: Research Experience
+\section{Research Experience}
+\begin{tabular}{p{14cm}r}
+\textbf{Research on the thermal conductivity of folded graphene}  &\textsc{Nov. 2013} - \textsc{Present} \\
+\hspace{1em}\textsc{Supervisor:} Prof. Nuo Yang \hspace{9em} \emph{Nano Heat Group} & \vspace{-0.5em}\\
+\begin{compactitem}
+       \item Simulating the evolution process by nonequilibrium molecular dynamics (NEMD)\vspace{0.2em}
+       \item Designing innovative structure to reduce the thermal conductivity\vspace{0.2em}
+       \item Modifying the parameters of structure to obtain a converged outcome
+     \end{compactitem}&\vspace{-2.2em} \\
+\multicolumn{2}{c}{} \\
+\textbf{Research on the thermal and fluid field analysis of sapphire crystal growth}  &\textsc{Nov. 2013 - May 2014} \\
+\hspace{1em} \textsc{Supervisor:} Prof. Haisheng Fang \hspace{6em} \emph{Multiscale Process Modeling Lab}  & \vspace{-0.5em} \\
+\begin{compactitem}
+       \item Analyzed the velocity field by using Computational Fluid Dynamics software\vspace{0.2em}
+       \item Used Discrete Phase Model to investigate the distribution of inert impurities\vspace{0.2em}
+       \item Investigated the relationship between the quality of the sapphire and the rotation speed
+     \end{compactitem}&\vspace{-2.2em} \\
+\multicolumn{2}{c}{} \\
+ \textbf{Team leader on designing the device utilizing wave energy in small watersheds}  &\textsc{May 2013 - Aug. 2013} \\
+\hspace{1em}  \textsc{Supervisor:} Prof. Jun Xiang  & \vspace{-0.5em}\\
+\begin{compactitem}
+       \item Designed and optimized the shape of the floating part\vspace{0.2em}
+       \item Designed the core component to collect and convert the wave energy\vspace{0.2em}
+       \item Made the prototype of the device
+     \end{compactitem}&\vspace{-1em} \\
+\multicolumn{2}{c}{} \vspace{-1.5em} \\
+  %\textsc{2007 - 2008} & \emph{Intern developer} at \textbf{PT Comunicações}, Lisboa\\
+  %& \begin{compactitem}
+  %  \item Helped to develop core funcionality in an IT infrastructure monitoring solution
+ %  \end{compactitem}\vspace{-2em} \\
+%\multicolumn{2}{c}{} \\
+
+
+\end{tabular}
+
+\section{Patent}
+\begin{tabular}{ll}
+\textbf{Q.C. Song} et al, ”An electricity generating device by utilizing small wave energy” (patent submitted 2014) &\\
+\end{tabular}
+
+\section{Honors and Awards}
+\begin{tabular}{p{14cm}r}
+\textbf{National Scholarship} (Three times) & \textsc{2012 $\&$ 2013 $\&$ 2014}  \\
+ \hspace{1em} {\small Top 1\% among all competitors, awarded by Ministry of Education of PRC.}& \vspace{0.2em} \\
+\textbf{Outstanding Student of Huazhong University of Sci. $\&$ Tech.} (Three times) & \textsc{2012 $\&$ 2013 $\&$ 2014}\\
+ \hspace{1em} {\small Top 1\% among all 2nd \& 3rd year students, one of the top honor for undergraduates.}& \vspace{0.2em} \\
+\textbf{Merit Student} (Three times) & \textsc{ 2012 $\&$ 2013 $\&$ 2014}  \\
+ \hspace{1em} {\small Top 4\% among all competitors, issued by HUST.}&  \vspace{0.2em}\\
+\textbf{Excellent Award in the 3rd National Water Resource Innovation Design Competition}  & \textsc{July 2013}\\
+\end{tabular}
+
+
+\section{Internship Experience}
+\begin{tabular}{p{15.7cm}r}
+\textbf{Summer Intership at Shangu Power Co.,Ltd.}, Xi'an &\textsc{July 2014 }\vspace{-0.5em} \\
+\begin{compactitem}
+       \item  Learned the manufacturing process of axial compressor
+       \item  Learned the CFD calculation of compressor and turbine design
+     \end{compactitem}&\vspace{-2em} \\
+\multicolumn{2}{c}{}\vspace{-0.5em} \\
+\end{tabular}
+\section{Computer Skills}
+\begin{tabular}{p{16cm}r}
+ \hspace{-1em} FORTRAN90(MPI), C++, Fluent, AutoCAD, MATLAB/Simulink, {\fb \LaTeX}  &\\
+\end{tabular}
+\end{document}
