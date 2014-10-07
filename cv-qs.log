@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2014.8.9)  7 OCT 2014 10:42
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2014.8.9)  8 OCT 2014 07:01
 entering extended mode
 **cv-qs.tex
 (E:\GitHUB\myCV\cv-qs.tex
@@ -938,10 +938,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 147.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
  ) 
 Here is how much of TeX's memory you used:
- 21975 strings out of 429025
- 395864 string characters out of 3170807
- 470016 words of memory out of 3000000
- 25098 multiletter control sequences out of 15000+200000
+ 21976 strings out of 429025
+ 395897 string characters out of 3170807
+ 469016 words of memory out of 3000000
+ 25099 multiletter control sequences out of 15000+200000
  4597 words of font info for 38 fonts, out of 3000000 for 9000
  913 hyphenation exceptions out of 8191
  46i,11n,54p,10429b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
