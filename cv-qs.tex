@@ -30,14 +30,14 @@
 
 %CV Sections inspired by:
 %http://stefano.italians.nl/archives/26
-\titleformat{\section}{\Large\bfseries\raggedright}{}{0em}{}[\titlerule]%\scshape\raggedright}{}{0em}{}[\titlerule]
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]%\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{3pt}{3pt}
 %Tweak a bit the top margin
 %\addtolength{\voffset}{-1.3cm}
 
 %Italian hyphenation for the word: ''corporations''
 \hyphenation{im-pre-se}
-\newgeometry{left=1.5cm,right=1.5cm,top=2.0cm, bottom=0.5cm}  %20140829 top 1.5-->2.5
+\newgeometry{left=1.5cm,right=1.5cm,top=1.5cm, bottom=0.5cm}  %20140829 top 1.5-->2.5
 %--------------------BEGIN DOCUMENT----------------------
 \begin{document}
 
@@ -45,7 +45,7 @@
 
 \font\fb="[cmr10]" %for use with \LaTeX command
 \centering
-  { \Huge \textbf{\textsc{Qichen} \textsc{\textbf {Song}}}
+  {\Huge \bf{\textsc{Qichen} \textsc{\textbf {Song}}}%\textbf{{\Huge{Q}\Large{ICHEN} \Huge{S}\Large{ONG}}%
 \vspace{0.7em}}\bigskip
 
 %-------------------Demarcation---------
@@ -68,7 +68,7 @@
 
 %Section: Education
 
-\section{EDUCATION}
+\section{Education}
 
 \begin{tabular}{rp{11.7cm}|l}
     &  \hspace{-1em} \textbf{Huazhong University of Science and Technology (HUST)}, \emph{2011.09-present}&\textbf{Standard Tests}\\
@@ -79,17 +79,25 @@
 \end{tabular}
 
 %Section: Research Experience
-\section{RESEARCH EXPERIENCE}
+\section{Research Experience}
 \begin{tabular}{p{14.5cm}r}
+\textbf{Research on coupling between different vibrational modes of graphene} & \emph{2014.09-present} \\
+\hspace{1em} Advisor: Prof. Nuo Yang, Dr. Meng An \hspace{3em} \emph{Nano Heat Group} & \vspace{-0.5em}\\
+\begin{compactitem}
+       \item Modeling thermal transport by nonequilibrium molecular dynamics (NEMD)\vspace{0.2em}
+       \item Calculating temperature gradient in separated directions with varying lengths\vspace{0.2em}
+       \item Investigating size-dependent effect of the coupling between different vibration modes\vspace{0.2em}
+     \end{compactitem}&\vspace{-2.2em} \\
+\multicolumn{2}{c}{} \\
 \textbf{Research on the thermal conductivity of folded graphene} & \emph{2013.11-present} \\
 \hspace{1em} Advisor: Prof. Nuo Yang \hspace{9em} \emph{Nano Heat Group} & \vspace{-0.5em}\\
 \begin{compactitem}
-       \item Simulating the evolution process by nonequilibrium molecular dynamics (NEMD)\vspace{0.2em}
+       \item Simulating the evolution process by NEMD\vspace{0.2em}
        \item Designing innovative structure to reduce the thermal conductivity\vspace{0.2em}
        \item Modifying the parameters of structure to obtain a converged outcome
      \end{compactitem}&\vspace{-2.2em} \\
 \multicolumn{2}{c}{} \\
-\textbf{Research on the thermal and fluid field analysis of sapphire crystal growth}  & \emph{2013.10-2014.05} \\
+\textbf{Research on the thermal and fluid field analysis of sapphire crystal growth}  & \emph{2013.08-2013.11} \\
 \hspace{1em} Advisor: Prof. Haisheng Fang \hspace{6.5em} \emph{Multiscale Process Modeling Lab}  & \vspace{-0.5em} \\
 \begin{compactitem}
        \item Analyzed the velocity field by using Computational Fluid Dynamics software\vspace{0.2em}
@@ -114,16 +122,16 @@
 
 \end{tabular}
 
-\section{PATENT}
+\section{Patent}
 \begin{tabular}{p{15.8cm}l}
 \textbf{Q.C. Song} et al, ”An electricity generating device by utilizing small wave energy” (submitted \emph{2014}) &\\
 \end{tabular}
 
-\section{HONORS AND AWARDS}
+\section{Honors and Awards}
 \begin{tabular}{p{14.5cm}r}
 \textbf{National Scholarship} (Three times) & \emph{2012,2013,2014}  \\
  \hspace{1em} {\small Top 1\% among all competitors, awarded by Ministry of Education of PRC}& \vspace{0.2em} \\
-\textbf{Outstanding Student of Huazhong University of Sci. $\&$ Tech.} (Three times) & \emph{2012,2013,2014}\\
+\textbf{Outstanding Student of Huazhong Univ. of Sci. $\&$ Tech.}  & \emph{2012-2014}\\
  \hspace{1em} {\small Top 1\% among all 2nd \& 3rd year students, one of the top honor for undergraduates}& \vspace{0.2em} \\
 \textbf{Merit Student} (Three times) &  \emph{2012,2013,2014}  \\
  \hspace{1em} {\small Top 4\% among all competitors, issued by HUST}&  \vspace{0.2em}\\
@@ -131,7 +139,7 @@
 \end{tabular}
 
 
-\section{INTERNSHIP EXPERIENCE}
+\section{Internship Experience}
 \begin{tabular}{p{15.5cm}r}
 \textbf{Summer Intership at Shangu Power Co.,Ltd.}, Xi'an &\emph{2014.06}\vspace{-0.5em} \\
 \begin{compactitem}
@@ -140,7 +148,7 @@
      \end{compactitem}&\vspace{-2em} \\
 \multicolumn{2}{c}{}\vspace{-0.5em} \\
 \end{tabular}
-\section{COMPUTER SKILLS}
+\section{Computer Skills}
 \begin{tabular}{p{15.8cm}l}
  \hspace{-1em} FORTRAN90(MPI), C++, Fluent, AutoCAD, MATLAB/Simulink, {\fb \LaTeX}  &\\
 \end{tabular}

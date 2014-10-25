@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2014.8.9)  12 OCT 2014 21:26
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2014.8.9)  25 OCT 2014 10:58
 entering extended mode
 **cv-qs.tex
 (E:\GitHUB\myCV\cv-qs.tex
@@ -731,14 +731,14 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 23.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(56.9055pt, 773.91498pt, 14.22636pt)
+* v-part:(T,H,B)=(42.67912pt, 788.14136pt, 14.22636pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=512.14963pt
-* \textheight=773.91498pt
+* \textheight=788.14136pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
-* \topmargin=-52.36449pt
+* \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -862,14 +862,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(56.9055pt, 773.91498pt, 14.22636pt)
+* v-part:(T,H,B)=(42.67912pt, 788.14136pt, 14.22636pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=512.14963pt
-* \textheight=773.91498pt
+* \textheight=788.14136pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
-* \topmargin=-52.36449pt
+* \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -917,22 +917,22 @@ Overfull \hbox (18.92813pt too wide) in paragraph at lines 53--68
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
  [1
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
 
 (E:\GitHUB\myCV\cv-qs.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 147.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 147.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 155.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 155.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
  21975 strings out of 429025
- 395858 string characters out of 3170807
- 469016 words of memory out of 3000000
+ 395863 string characters out of 3170807
+ 471016 words of memory out of 3000000
  25098 multiletter control sequences out of 15000+200000
  4597 words of font info for 38 fonts, out of 3000000 for 9000
  913 hyphenation exceptions out of 8191
