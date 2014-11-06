@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2014.8.9)  25 OCT 2014 11:05
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2014.8.9)  6 NOV 2014 16:43
 entering extended mode
 **cv-qs.tex
 (E:\GitHUB\myCV\cv-qs.tex
@@ -731,14 +731,14 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 23.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(42.67912pt, 788.14136pt, 14.22636pt)
+* v-part:(T,H,B)=(54.06006pt, 776.76042pt, 14.22636pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=512.14963pt
-* \textheight=788.14136pt
+* \textheight=776.76042pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
-* \topmargin=-66.59087pt
+* \topmargin=-55.20993pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -862,14 +862,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(42.67912pt, 788.14136pt, 14.22636pt)
+* v-part:(T,H,B)=(54.06006pt, 776.76042pt, 14.22636pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=512.14963pt
-* \textheight=788.14136pt
+* \textheight=776.76042pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
-* \topmargin=-66.59087pt
+* \topmargin=-55.20993pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
