@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2014.8.9)  6 NOV 2014 16:43
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2014.8.9)  7 NOV 2014 20:01
 entering extended mode
 **cv-qs.tex
 (E:\GitHUB\myCV\cv-qs.tex
@@ -731,14 +731,14 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 23.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(54.06006pt, 776.76042pt, 14.22636pt)
+* v-part:(T,H,B)=(48.36958pt, 782.4509pt, 14.22636pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=512.14963pt
-* \textheight=776.76042pt
+* \textheight=782.4509pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
-* \topmargin=-55.20993pt
+* \topmargin=-60.9004pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -862,14 +862,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(54.06006pt, 776.76042pt, 14.22636pt)
+* v-part:(T,H,B)=(48.36958pt, 782.4509pt, 14.22636pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=512.14963pt
-* \textheight=776.76042pt
+* \textheight=782.4509pt
 * \oddsidemargin=-29.59087pt
 * \evensidemargin=-29.59087pt
-* \topmargin=-55.20993pt
+* \topmargin=-60.9004pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -932,7 +932,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
 Here is how much of TeX's memory you used:
  21975 strings out of 429025
  395863 string characters out of 3170807
- 471016 words of memory out of 3000000
+ 472016 words of memory out of 3000000
  25098 multiletter control sequences out of 15000+200000
  4597 words of font info for 38 fonts, out of 3000000 for 9000
  913 hyphenation exceptions out of 8191
