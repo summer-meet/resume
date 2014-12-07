@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2014.8.9)  3 DEC 2014 13:12
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9) (preloaded format=xelatex 2014.8.9)  7 DEC 2014 09:14
 entering extended mode
 **ps.tex
 (E:\GitHUB\myCV\ps.tex
@@ -907,27 +907,28 @@ LaTeX Info: Redefining \nameref on input line 57.
 (E:\GitHUB\myCV\ps.out)
 \@outlinefile=\write3
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--86
+Overfull \hbox (2.59119pt too wide) in paragraph at lines 74--82
+\EU1/Fontin-Regular(0)/m/n/10 thermal properties. For traditional bulk material
+s, we cannot alter their thermal properties significantly.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--86
+Underfull \hbox (badness 10000) in paragraph at lines 74--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--86
+Underfull \hbox (badness 10000) in paragraph at lines 74--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--86
+Underfull \hbox (badness 10000) in paragraph at lines 74--82
 
  []
 
@@ -938,19 +939,19 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
 
 (E:\GitHUB\myCV\ps.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 88.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 88.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 84.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 84.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
  ) 
 Here is how much of TeX's memory you used:
  21972 strings out of 429025
  395503 string characters out of 3170807
- 468293 words of memory out of 3000000
+ 467293 words of memory out of 3000000
  25104 multiletter control sequences out of 15000+200000
  4112 words of font info for 29 fonts, out of 3000000 for 9000
  912 hyphenation exceptions out of 8191
