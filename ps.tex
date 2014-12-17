@@ -20,6 +20,7 @@
 %Setup hyperref package, and colours for links
 \usepackage{hyperref}
 \usepackage{marvosym} %symbol
+\usepackage{fancyhdr}
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
 
@@ -55,9 +56,14 @@
 \newgeometry{left=1in,right=1in,top=1.0in, bottom=1.0in}  %20140829 top 1.5-->2.5
 %--------------------BEGIN DOCUMENT----------------------
 \begin{document}
-\thispagestyle {empty}
-\pagestyle{empty}
+%\thispagestyle{empty}
+%\pagestyle{empty}
+\thispagestyle {fancy}
+\pagestyle{fancy}
+\fancyfoot{}%清除已定义页脚设置
 \begin{spacing}{1.5}
+{\lhead{\footnotesize Mechanical Engineering}}
+{\rhead{\footnotesize Doctor of Philosophy}}
 %\pagestyle{empty} % non-numbered pages
 
 %：\tiny-6pt、\scritpsize-8pt、\footnotesize-10pt、\small-11pt、
@@ -66,7 +72,7 @@
 
 \font\fb="[cmr10]" %for use with \LaTeX command
 \begin{center} {  \vspace{5em}  }  \end{center}
-\begin{center} {\par\LARGE {\textsc{Statement of Purpose}}     }  \end{center}%\textbf{{\Huge{Q}\Large{ICHEN} \Huge{S}\Large{ONG}}%}
+\begin{center} {\par\LARGE{\textsc{Statement of Purpose}}}  \end{center}%\textbf{{\Huge{Q}\Large{ICHEN} \Huge{S}\Large{ONG}}%}
 \vspace{0.0em}
 \begin{center} {\large {Qichen Song}     }  \end{center}
 %-------------------Demarcation---------
@@ -75,10 +81,21 @@ Innovative nanostructured materials have attracted extensive scientific interest
 \\
 My undergraduate study has strengthened my skills and knowledge to study thermal transport. My major courses such as thermodynamics (91/100), heat transfer (96/100) and fluid dynamics (99/100) helped me to understand basic rules and principles of energy conversion and thermal management. Meanwhile, I acquired solid skills in coding for high precision scientific computation from the course of numerical methods (100/100) and C++ programming design (95/100). In Nano Heat Group led by Prof. Nuo Yang, I obtained further knowledge of mechanism of nanoscale thermal transport.\\
 \\
-My research experience in Nano Heat Group taught me how to come up with novel ideas to picture and investigate transport phenomena via programming and developed my ability of critical thinking. I focused on finding ways to reduce thermal conductivity of graphene for its potential thermoelectric application. Folding has been proved to be a useful way to manipulate the thermal conductivity of graphene nanoribbon. However, given the fact that there exists a strong size effect on thermal conductivity of graphene, the large-area folded graphene may be a different case and thus should be investigated. I successfully applied my own FORTRAN program to set atom’s initial position, initial velocity distribution and atom reciprocal potentials explicitly and reasonably. To obtain an size-independent thermal conductivity characterizing large-area graphene, a series of simulation cases were calculated. Challenging was that computers cannot deal with some cases of extremely large simulation scale. I subtly optimized the code to accelerate the computing process and solved this issue successfully. And my results clearly show that thermal conductivity decreases significantly with increasing number of folds and stronger substrate effect, caused by the enhanced phonon scattering. This proves that even for large-area graphene with folds, folding still greatly contributes to reducing the thermal conductivity. This work is being enriched and will be published soon. From this work, I learned every detail of MD simulation and gained great pleasure from integrating my thoughts and efforts into efficient solutions to crack puzzles in the amazing nano world.\\
+My research experience in Nano Heat Group taught me how to come up with novel ideas to picture and investigate transport phenomena via programming and developed my ability of critical thinking. I focused on finding ways to reduce thermal conductivity of graphene for its potential thermoelectric application. Folding has been proved to be a useful way to manipulate the thermal conductivity of graphene nanoribbon. However, given the fact that there exists a strong size effect on thermal conductivity of graphene, the large-area folded graphene may be a different case and thus should be investigated. I successfully applied my own FORTRAN program to set atom’s initial position, initial velocity distribution and atom reciprocal potentials explicitly and reasonably. To obtain the size-independent thermal conductivity characterizing large-area graphene, a series of simulation cases were calculated. Challenging was that computers cannot deal with some cases of extremely large simulation scale. I subtly optimized the code to accelerate the computing process and solved this issue successfully. And my results clearly show that thermal conductivity decreases significantly with increasing number of folds and stronger substrate effect, caused by the enhanced phonon scattering. This proves that even for large-area graphene with folds, folding still greatly contributes to reducing the thermal conductivity. This work is being enriched and will be published soon. From this work, I learned every detail of MD simulation and gained great pleasure from integrating my thoughts and efforts into efficient solutions to crack puzzles in the amazing nano world.\\
 Besides, capability of collaboration helped me more prepared for my future research. In the research on coupling between different phonon modes in graphene, doctoral candidate Meng An came up with theory model and I built the simulation model to verify its validity. Then we discussed how to modify the model based on simulation results. We did this feedback process time after time for months to make sure we finally obtained an appropriate model that can rationally quantify coupling strength. Meanwhile, we kept doing double-check of each other’s work to prevent mistakes. It was teamwork that inspired me constantly and promoted the research greatly.\\
 \\
-With my strong background, I believe I am well prepared to attend graduate school and contribute to the field of nanoscale thermal transport. I seek advanced knowledge and skills I need from the graduate program to systematically conduct my research. The Department of Mechanical Engineering at University of Colarado Boulder is known for its advanced interdisciplinary studies, especially in nano-systems and energy engineering. It will be a precious experience for me to conduct cutting-edge research and learn how to innovate in face of challenges during my PhD studies. After my graduation, I will definitely keep pursuing my academic career in the area of nanoscale heat transfer for I believe that Rome was not built in one day: to convert my expertise into valuable scientific and social contribution, years of continuous effort is a must.\\
-
+With my strong background, I believe I am well prepared to attend graduate school and contribute to the field of nanoscale thermal transport. I seek advanced knowledge and skills from the graduate program to systematically conduct my research. The Department of Mechanical Engineering at Univer- sity of Maryland is known for its advanced interdisciplinary studies, especially in nano engineering and novel energy conversion/storage devices. It will be a precious experience for me to conduct cutting-edge research in thermal transport and learn how to innovate in face of challenges during my PhD studies. After my graduation, I will definitely keep pursuing my academic career in the area of nanoscale heat transfer for I believe that Rome was not built in one day: to convert my expertise into valuable scientific and social contribution, years of continuous effort is a must.\\
+\newpage
+\begin{center} {  \vspace{5em}  }  \end{center}
+\begin{center} {\par\LARGE{\textsc{Personal Statement}}}  \end{center}%\textbf{{\Huge{Q}\Large{ICHEN} \Huge{S}\Large{ONG}}%}
+\begin{center} {\large {Qichen Song}     }  \end{center}
+\vspace{2.0em}
+During the summer holiday of my sophomore year, I took a 1,370-mile-cycling trip from Dali, Yunnan Province to Lhasa, Tibet. It was a tough journey, but now I can hardly remember any of the hardships and instead only the breath-taking natural scenes remains in my mind. When I was riding the bicycle, I had to push the pedals repeatedly. I was tired and bored, thinking about how many more miles there were ahead. However, it was the seemingly tedious and repeated movements that actually led me to my destination step by step. Without that I would never have the opportunity to enjoy those spectacular views.\\
+\\
+I felt the same way in my academic life. In 2013, I took part in the National Water Resource Innovation Design Competition with the project \emph{An Electricity Generating Device by Utilizing Small Wave Energy}. The process of preparation for the competition was just like keeping pushing pedals: we had to stay up late to re-design and optimize our device again and again in order to make sure our device was really cost-effective because low energy density of wave requires high-efficient energy capture. After weeks, the fun of designing gradually faded away and the vapidity of repetition appeared instead. But when we finally saw our device harvest wave energy in the lake efficiently, the unpredicted high performance of it inspired us a lot and those tiring nights disappeared from our memory immediately. It made me feel like after cycling for miles we were finally able to enjoy the beautiful scenes of nature wonders.\\
+\\
+Conducting research is just like a cycling journey, too. Although I have strong interests in modeling for nanoscale heat transfer, problems cannot be automatically solved merely by interests. Patience and stamina are also needed. In my theoretical work by simulation, a lot of tests had to be run before the final calculation and a lot of time was spent on debugging again and again to make sure the program for molecular dynamics simulation was correct. Sometimes, I felt like I was just doing repeated things. But then I realized that though I had to find out errors over and over again, the errors were becoming less and less and the truth was that I was moving forward constantly because the wheels were never stop spinning. \\
+\\
+I am not saying that doing research means repetition, but rather, an outstanding discovery is usually based on repeated attempts and even failures thus feeling bored occasionally is inevitable. Just keep pushing your pedals and never stop. If you are heading to the right destination, you will see the marvelous sights soon where you will forget all of the pains you have ever taken. This whole amazing bitter-sweet process intrigues me and confirms my determination to pursue an academic career. I hope the A. James Clark School of Engineering at University of Maryland will help to guide me towards the right destination.
 \end{spacing}
 \end{document}

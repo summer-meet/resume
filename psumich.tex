@@ -1,0 +1,88 @@
+%based on the guide at http://www.cv-templates.info/2009/03/professional-cv-latex/
+\documentclass[a4paper,10pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\usepackage{setspace} %spacing
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** \usepackage{fullpage} **
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+\usepackage{paralist}
+\usepackage{geometry}                     %for setting the margin
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{xcolor}
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\usepackage{marvosym} %symbol
+\usepackage{fancyhdr}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[ Path = fonts/, BoldFont = Fontin-Bold, BoldItalicFont = Fontin-Bold, ItalicFont = Fontin-Italic, SmallCapsFont = Fontin-SmallCaps]{Fontin-Regular}%SmallCaps]{Fontin-Regular}
+%\setmainfont[Path = fonts/, BoldFont = LinLibertine_RB.otf, ItalicFont = LinLibertine_RI.otf, BoldItalicFont = LinLibertine_RBI.otf, SlantedFont = LinLibertine_aRL.otf, BoldSlantedFont = LinLibertine_aBL.otf, SmallCapsFont = LinLibertine_aS.otf]{LinLibertine_R.otf}
+%\setmainfont[ Path = fonts/, BoldFont = GILB, BoldItalicFont = GILBI, ItalicFont = GILI, SmallCapsFont = GIL]{GIL}
+
+%CV Sections inspired by:
+%http://stefano.italians.nl/archives/26
+%\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]%\scshape\raggedright}{}{0em}{}[\titlerule]
+%\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+%Italian hyphenation for the word: ''corporations''
+%\hyphenation{im-pre-se}
+
+
+%............
+
+%\tolerance=1000
+%\emergencystretch=\maxdimen
+%\hyphenpenalty=10%10000
+%\hbadness=10%10000
+\hyphenchar\font=-1
+%\sloppy
+%........
+
+
+
+\newgeometry{left=1in,right=1in,top=1.0in, bottom=1.0in}  %20140829 top 1.5-->2.5
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+%\thispagestyle{empty}
+%\pagestyle{empty}
+\thispagestyle {fancy}
+\pagestyle{fancy}
+\fancyfoot{}%清除已定义页脚设置
+\begin{spacing}{1.5}
+{\lhead{\footnotesize Mechanical Engineering}}
+{\rhead{\footnotesize Doctor of Philosophy}}
+%\pagestyle{empty} % non-numbered pages
+
+%：\tiny-6pt、\scritpsize-8pt、\footnotesize-10pt、\small-11pt、
+
+%\normalsize-12pt、\large-14pt、\Large-17pt、\LARGE-20、\huge-25pt、\Huge-25pt。
+
+\font\fb="[cmr10]" %for use with \LaTeX command
+\begin{center} {  \vspace{3em}  }  \end{center}
+\begin{center} {\par\LARGE {\textsc{Personal Statement}}     }  \end{center}%\textbf{{\Huge{Q}\Large{ICHEN} \Huge{S}\Large{ONG}}%}
+\vspace{0.0em}
+\begin{center} {\large {Qichen Song}     }  \end{center}
+%-------------------Demarcation---------
+\vspace{1.5em}
+During the summer holiday of my sophomore year, I took a 1,370-mile-cycling trip from Dali, Yunnan Province to Lhasa, Tibet. It was a tough journey, but now I can hardly remember any of the hardships and instead only the breath-taking natural scenes remains in my mind. When I was riding the bicycle, I had to push the pedals repeatedly. I was tired and bored, thinking about how many more miles there were ahead. However, it was the seemingly tedious and repeated movements that actually led me to my destination step by step. Without that I would never have the opportunity to enjoy those spectacular views.\\
+\\
+I felt the same way in my academic life. In 2013, I took part in the National Water Resource Innovation Design Competition with the project \emph{An Electricity Generating Device by Utilizing Small Wave Energy}. The process of preparation for the competition was just like keeping pushing pedals: we had to stay up late to re-design and optimize our device again and again in order to make sure our device was really cost-effective because low energy density of wave requires high-efficient energy capture. After weeks, the fun of designing gradually faded away and the vapidity of repetition appeared instead. But when we finally saw our device harvest wave energy in the lake efficiently, the unpredicted high performance of it inspired us a lot and those tiring nights disappeared from our memory immediately. It made me feel like after cycling for miles we were finally able to enjoy the beautiful scenes of nature wonders.\\
+\\
+Conducting research is just like a cycling journey, too. Although I have strong interests in modeling for nanoscale heat transfer, problems cannot be automatically solved merely by interests. Patience and stamina are also needed. In my theoretical work by simulation, a lot of tests had to be run before the final calculation and a lot of time was spent on debugging again and again to make sure the program for molecular dynamics simulation was correct. Sometimes, I felt like I was just doing repeated things. But then I realized that though I had to find out errors over and over again, the errors were becoming less and less and the truth was that I was moving forward constantly because the wheels were never stop spinning. \\
+\\
+I am not saying that doing research means repetition, but rather, an outstanding discovery is usually based on repeated attempts and even failures thus feeling bored occasionally is inevitable. Just keep pushing your pedals and never stop. If you are heading to the right destination, you will see the marvelous sights soon where you will forget all of the pains you have ever taken. This whole amazing bitter-sweet process intrigues me and confirms my determination to pursue an academic career. I hope the Rackham Graduate School at University of Michigan will help to guide me towards the right destination.
+\end{spacing}
+\end{document}
