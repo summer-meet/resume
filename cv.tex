@@ -1,4 +1,3 @@
-%based on the guide at http://www.cv-templates.info/2009/03/professional-cv-latex/
 \documentclass[a4paper,10pt]{article}
 
 %A Few Useful Packages
@@ -12,124 +11,144 @@
 \usepackage{supertabular} 				%for Grades
 \usepackage{titlesec}					%custom \section
 \usepackage{paralist}
-
+\usepackage{geometry}                     %for setting the margin
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{xcolor}
 %Setup hyperref package, and colours for links
 \usepackage{hyperref}
+\usepackage{marvosym} %symbol
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
 
 %FONTS
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont[ Path = fonts/, BoldFont = Fontin-Bold, BoldItalicFont = Fontin-Bold, ItalicFont = Fontin-Italic, SmallCapsFont = Fontin-SmallCaps]{Fontin-Regular}
-%\setmainfont[Path = fonts/, BoldFont = LinLibertine_RB.otf, ItalicFont = LinLibertine_RI.otf, BoldItalicFont = LinLibertine_RBI.otf, SlantedFont = LinLibertine_aRL.otf, BoldSlantedFont = LinLibertine_aBL.otf, SmallCapsFont = LinLibertine_aS.otf, Mapping = tex-text]{LinLibertine_R.otf}
+\setmainfont[ Path = fonts/, BoldFont = Fontin-Bold, BoldItalicFont = Fontin-Bold, ItalicFont = Fontin-Italic, SmallCapsFont = Fontin-SmallCaps]{Fontin-Regular}%SmallCaps]{Fontin-Regular}
+%\setmainfont[Path = fonts/, BoldFont = LinLibertine_RB.otf, ItalicFont = LinLibertine_RI.otf, BoldItalicFont = LinLibertine_RBI.otf, SlantedFont = LinLibertine_aRL.otf, BoldSlantedFont = LinLibertine_aBL.otf, SmallCapsFont = LinLibertine_aS.otf]{LinLibertine_R.otf}
+%\setmainfont[ Path = fonts/, BoldFont = GILB, BoldItalicFont = GILBI, ItalicFont = GILI, SmallCapsFont = GIL]{GIL}
 
-%CV Sections inspired by: 
+%CV Sections inspired by:
 %http://stefano.italians.nl/archives/26
-\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]%\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{3pt}{3pt}
 %Tweak a bit the top margin
 %\addtolength{\voffset}{-1.3cm}
 
 %Italian hyphenation for the word: ''corporations''
 \hyphenation{im-pre-se}
-
+\newgeometry{left=1.5cm,right=1.5cm,top=1.6cm, bottom=0.5cm}  %20140829 top 1.5-->2.5
 %--------------------BEGIN DOCUMENT----------------------
 \begin{document}
 
 \pagestyle{empty} % non-numbered pages
 
-\font\fb=''[cmr10]'' %for use with \LaTeX command
+\font\fb="[cmr10]" %for use with \LaTeX command
+\centering
+  {\Huge \bf{\textsc{Qichen} \textsc{\textbf {Song}}}%\textbf{{\Huge{Q}\Large{ICHEN} \Huge{S}\Large{ONG}}%
+\vspace{-0.2em}}\bigskip
 
+%-------------------Demarcation---------
+\hrule height 0.7mm \vspace{-0.4em}
+\begin{tabular}{p{8.9cm}p{3.8cm}p{4.0cm}}
+%------------------Basic info-----------
+ %  \textsc{Address:}
+   {\small 6\#325, Zisong Apt, 1037 Luoyu Rd, Wuhan, 430074, China}
+  %&\textsc{Phone:}
+  & \large{\Telefon} {\small +86 131 6323 8726}
+   %\multirow{3}{*}{ \Huge Qichen \textsc{Song}} \\
+  % &\textsc{email:}
+   & \large{\Letter} {\small \href{mailto:kitchensong@gmail.com}{\textcolor{black}{kitchensong@gmail.com}}}\\
 %--------------------TITLE-------------
-\par{\centering
-  {\Huge João \textsc{Duarte}
-}\bigskip\par}
-
+%\par{
+ % { \Huge Qichen \textsc{Song}
+%}\bigskip\par}
+\end{tabular}
 %--------------------SECTIONS-----------------------------------
-%Section: Personal Data
-\section{Personal Data}
-
-\begin{tabular}{rl}
-    \textsc{Address:}   & Rua Dr. Gama Barros 71 Cave Esq - 1700-144 Lisboa\\
-    \textsc{Phone:}     & +351 96 2475909\\
-    \textsc{email:}     & \href{mailto:jsvduarte@gmail.com}{jsvduarte@gmail.com} \\
-\end{tabular}
-
-%Section: Summary
-\section{Summary}
-I'm a software engineer looking for challenging problems that can be solved by
-the "right set of tools". I have a deep interest in applying real-time event processing
-techniques (or creating new ones) that can help both machines and human beings understand
-their ecossystems better, make informed decisions and promote enaction. I also enjoy programming in Ruby
-and leveraging it for quickly prototyping, bootstrapping and developing solutions.
-
-%Section: Work Experience at the top
-\section{Work Experience}
-\begin{tabular}{rp{11cm}}
-\textsc{2008 - present} & \emph{CEP Engineer} at \textbf{PT Comunicações}, Lisboa\\ 
-   & \begin{compactitem} 
-       \item Core developer TODO
-       \item SCRUM Master
-     \end{compactitem}\vspace{-1em} \\
-\multicolumn{2}{c}{} \\
-
-  \textsc{2007 - 2008} & \emph{Intern developer} at \textbf{PT Comunicações}, Lisboa\\ 
-  & \begin{compactitem}
-    \item Helped to develop core funcionality in an IT infrastructure monitoring solution
-   \end{compactitem}\vspace{-1em} \\
-\multicolumn{2}{c}{} \\
-
-  \textsc{2004 - 2005} & \emph{Trainee} at \textbf{INESC-ID}, Lisboa\\ 
-  & \begin{compactitem}
-    \item Exploratory work involving RFID, Bluetooth and Microsoft .NET compact framework
-   \end{compactitem}\vspace{-1em} \\
-\multicolumn{2}{c}{} \\
-
-\end{tabular}
 
 %Section: Education
+
 \section{Education}
-\begin{tabular}{rl}	
-2003 - 2007 & \textbf{Instituto Superior Técnico, Universidade Técnica de Lisboa}, Lisboa\\
- & Bachelor of Science in \textsc{Software Engineering} \\
-2007 - 2009 & \textbf{Instituto Superior Técnico, Universidade Técnica de Lisboa}, Lisboa\\
- & Master of Science in \textsc{Software Engineering}
+
+\begin{tabular}{rp{11.7cm}|l}
+    &  \hspace{-1em} \textbf{Huazhong University of Science and Technology (HUST)}, \emph{2011.09-present}&\textbf{Standardized Tests}\\
+   &\hspace{-1em} Major: Thermal Energy and Power Engineering
+         &TOFEL: 107 (R29 L30 S23 W25) \\
+&\hspace{-1em} Degree: Bachelor of Engineering, expected \emph{2015.06} &GRE: V152+Q170+AW4.0 \\
+&\hspace{-1em} Overall GPA: \textbf{92.2/100} \hspace{1em} Overall Rank: \textbf{1/366}&\\
 \end{tabular}
 
-\section{Languages and Frameworks}
-\begin{tabular}{r|p{11cm}}
-\multicolumn{2}{c}{} \\
-Ruby / JRuby & Developed several components for an event processing stack, such
-as event preprocessors, input/output adapters for a correlation engine \\
+%Section: Research Experience
+\section{Research Experience}
+\begin{tabular}{p{13.5cm}p{0.5cm}r}
+\textbf{Research on coupling between different phonon modes in graphene} && \emph{2014.09-present} \\
+\hspace{1em} Advisor: Prof. Nuo Yang, Dr. Meng An \hspace{3em} \emph{Nano Heat Group} && \vspace{-0.5em}\\
+\begin{compactitem}
+       %\item Independly programming \vspace{0.2em}
+       \item Built an model to manipulate in-plane/out-of-plane temperature gradient\vspace{0.2em}
+       \item Investigated coupling between different phonon modes (TA, LA and ZA) and their contributions to thermal conductivity\vspace{0.2em}
+     \end{compactitem}&&\vspace{-2.2em} \\
+\multicolumn{3}{c}{} \\
+\textbf{Research on modulation of thermal conductivity in folded graphene} && \emph{2013.11-present} \\
+\hspace{1em} Advisor: Prof. Nuo Yang \hspace{9em} \emph{Nano Heat Group} && \vspace{-0.5em}\\
+\begin{compactitem}
+       \item Independently wrote FORTRAN code of nonequilibrium molecular dynamics\vspace{0.2em}
+       \item Designed innovative structure to reduce the thermal conductivity significantly\vspace{0.2em}
+       \item Obtained size-independent thermal conductivity that characterizes large-area folded graphene's thermal properties
+     \end{compactitem}&&\vspace{-2.2em} \\
+\multicolumn{3}{c}{} \\
+\textbf{Research on the temperature and flow field analysis of sapphire crystal growth}  && \emph{2013.08-2013.11} \\
+\hspace{1em} Advisor: Prof. Haisheng Fang \hspace{6.7em} \emph{Multiscale Process Modeling Lab}  && \vspace{-0.5em} \\
+\begin{compactitem}
+       \item Comprehensively investigated varied flow fields' influence on sapphire growth\vspace{0.2em}
+       \item Used Discrete Phase Model to investigate the distribution of inert impurities\vspace{0.2em}
+       \item Simplified the complex system and found a new way to improve sapphire's quality %Investigated the relationship between the quality of the sapphire and the rotation speed
+     \end{compactitem}&&\vspace{-2.2em} \\
+\multicolumn{3}{c}{} \\
+ \textbf{Team leader on designing the device utilizing wave energy in small watersheds}&&  \emph{2013.05-2013.08} \\
+\hspace{1em}  Advisor: Prof. Jun Xiang  & &\vspace{-0.5em}\\
+\begin{compactitem}
+       \item Designed the innovative machine to harvest small wave energy\vspace{0.2em}
+       \item Successfully optimized the structure by modeling and effectively improved the energy conversion efficiency\vspace{0.2em}
+       \item Made the prototype of the device
+     \end{compactitem}&&\vspace{-1em} \\
+\multicolumn{3}{c}{} \vspace{-1.5em} \\
+  %\textsc{2007 - 2008} & \emph{Intern developer} at \textbf{PT Comunicações}, Lisboa\\
+  %& \begin{compactitem}
+  %  \item Helped to develop core funcionality in an IT infrastructure monitoring solution
+ %  \end{compactitem}\vspace{-2em} \\
 %\multicolumn{2}{c}{} \\
-%Java &  Used in the development of an event processing stack (excluding CEP engine) \\
-\multicolumn{2}{c}{} \\
-C &  Formal training in college (complex data structures and graph traversing algorithms).\\
+
+
 \end{tabular}
 
-\section{Platforms and Technologies}
-\begin{tabular}{r|p{11cm}}
-CEP (Esper) & Constructed a tiered QoS evaluation model for IT architectures \\
- & Wrote a set of alarms for detecting in real-time individual and common malfuncions of
- telco customers with high throughput requirements (1000 events/s)\\
- & Mentored an employee \\
-\multicolumn{2}{c}{} \\
-Linux / Unix &  Extensive use of Linux for both personal and enterprise use (distributions: RHEL, RedHat, Debian, SlackWare, SuSE, ArchLinux) \\
-\multicolumn{2}{c}{} \\
-Databases & MySQL, MongoDB\\
-\multicolumn{2}{c}{} \\
-Web Servers & Sinatra for small web applications and REST APIs.\\
-\multicolumn{2}{c}{} \\
-Revision Control & Used CVS in college, SVN in both college and work, using git for the last 3 years whenever possible\\
+\section{Patent}
+\begin{tabular}{p{15.5cm}p{1cm}}
+\textbf{Q.C. Song} et al, `An electricity generating device by utilizing small wave energy' (CN201420634269.0) &\\
 \end{tabular}
 
-%Section: Certificates
-\section{Certificates}
-\begin{tabular}{rl}
- 2011 & Certified SCRUM Master (\textsc{CSM}) \\
+\section{Honors and Awards}
+\begin{tabular}{p{14.5cm}r}
+\textbf{Warren M. Rohsenow Fellowship} & \emph{2015-2016}  \\
+\hspace{1em} {Awarded by Department of Mechanical Engineering, MIT}& \vspace{0.2em} \\
+\textbf{National Scholarship} (Three times) & \emph{2012,2013,2014}  \\
+ \hspace{1em} {\small Top 1\% among all competitors, awarded by Ministry of Education of PRC}& \vspace{0.2em} \\
+\textbf{Outstanding Student of Huazhong Univ. of Sci. $\&$ Tech.}  & \emph{2012-2014}\\
+ \hspace{1em} {\small Top 1\% among all 2nd \& 3rd year students, one of the top honor for undergraduates}& \vspace{0.2em} \\
+\textbf{Excellent Award in the 3rd National Water Resource Innovation Design Competition}  & \emph{2013.07}\\
 \end{tabular}
 
-\section{Interests and Activities}
-%I spend my free time studying latest trends in Software Engineering, Management, Productivity, Fitness, and Learning (occasionally writing about them in my blog), playing with computer games and computer hardware. \\
 
+\section{Internship Experience}
+\begin{tabular}{p{15.3cm}r}
+\textbf{Summer Intership at Shangu Power Co.,Ltd.}, Xi'an &\hspace{0.5em}\emph{2014.06}\vspace{-0.5em} \\
+\begin{compactitem}
+       \item  Learned details of manufacturing process of tail gas turbine
+       \item  Systematically learned the CFD computation methods for turbine design
+     \end{compactitem}&\vspace{-2em} \\
+\multicolumn{2}{c}{}\vspace{-0.5em} \\
+\end{tabular}
+\section{Computer Skills}
+\begin{tabular}{p{15.8cm}l}
+ \hspace{-1em} FORTRAN90(MPI), C++, Fluent, AutoCAD, MATLAB/Simulink, {\fb \LaTeX}  &\\
+\end{tabular}
 \end{document}
