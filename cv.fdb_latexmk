@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1501609048 "/Users/Theodore/Google Drive/_Github/resume/cv.tex" "cv.pdf" "cv" 1501609048
-  "/Users/Theodore/Google Drive/_Github/resume/cv.tex" 1501609047 7720 5497f5bd7d970f842cb3ae02dc61cfe9 ""
+["pdflatex"] 1501611125 "/Users/Theodore/Google Drive/_Github/resume/cv.tex" "cv.pdf" "cv" 1501611125
+  "/Users/Theodore/Google Drive/_Github/resume/cv.tex" 1501611124 7030 5744e22a7197ebb6b2bb82401c2b10ab ""
   "/usr/local/texlive/2016/texmf-dist/tex/generic/unicode-data/CaseFolding.txt" 1449876215 74499 11c335947e5ffa8ac69a3e530b8d2b40 ""
   "/usr/local/texlive/2016/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt" 1449876215 16740 4c17368651bc455636f58c3366bdbbeb ""
   "/usr/local/texlive/2016/texmf-dist/tex/generic/unicode-data/UnicodeData.txt" 1449876215 1621978 3a83069e69e2a9101dc4749593cd3268 ""
@@ -15,10 +15,10 @@
   "/usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf" 1463093894 31953 b9489e6e586f798610c60aec1f5ec548 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1463979169 3873397 413fbfbbedb8e719ddc392043a7add02 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "cv.aux" 1501608928 1153 728d080b981afb2dc779e5454ea9ef0d ""
-  "cv.tex" 1501609047 7720 5497f5bd7d970f842cb3ae02dc61cfe9 ""
+  "cv.aux" 1501611115 1074 e48e02f1c634436e4b77409de02b1a6c ""
+  "cv.tex" 1501611124 7030 5744e22a7197ebb6b2bb82401c2b10ab ""
   (generated)
   "cv.out"
   "cv.pdf"
-  "cv.aux"
   "cv.log"
+  "cv.aux"

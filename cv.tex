@@ -1,23 +1,19 @@
 \documentclass[a4paper,10pt]{article}
 
 \usepackage{marvosym}
-\usepackage{fontspec} 					%for loading fonts
-\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\usepackage{fontspec} %for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} %other packages for formatting
 \RequirePackage{color,graphicx}
 \usepackage[usenames,dvipsnames]{xcolor}
-\usepackage[big]{layaureo} 				%better formatting of the A4 page
-
-% an alternative to Layaureo can be ** \usepackage{fullpage} **
-\usepackage{supertabular} 				%for Grades
-\usepackage{titlesec}					%custom \section
+\usepackage[big]{layaureo} %better formatting of the A4 page % an alternative to Layaureo can be ** \usepackage{fullpage} **
+\usepackage{supertabular} %for Grades
+\usepackage{titlesec}	%custom \section
 \usepackage{paralist}
-\usepackage{geometry}                     %for setting the margin
+\usepackage{geometry} %for setting the margin
 \usepackage{multirow}
 \usepackage{array}
 \usepackage{xcolor}
-
-%Setup hyperref package, and colours for links
-\usepackage{hyperref}
+\usepackage{hyperref} %Setup hyperref package, and colours for links
 \usepackage{marvosym} %symbol
 \definecolor{linkcolour}{rgb}{0,0.2,0.6}
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
@@ -37,27 +33,31 @@
 %Italian hyphenation for the word: ''corporations''
 \hyphenation{im-pre-se}
 \newgeometry{left=1.5cm,right=1.5cm,top=1.6cm, bottom=0.5cm}  %20140829 top 1.5-->2.5
+
+
 %--------------------BEGIN DOCUMENT----------------------
 \begin{document}
 
 \pagestyle{empty} % non-numbered pages
 
 \font\fb="[cmr10]" %for use with \LaTeX command
-\centering
-  {\Huge \bf{\textsc{Hang} \textsc{\textbf {Hu}}}%\textbf{{\Huge{H}\Large{ANG} \Huge{H}\Large{U}}%
+\centering{\Huge\bf{\textsc{Hang} \textsc{\textbf {Hu}}}
 \vspace{-0.2em}}\bigskip
 
 %-------------------Demarcation---------
 \hrule height 0.7mm \vspace{-0.4em}
-\begin{tabular}{p{8.9cm}p{3.8cm}p{4.0cm}}
+\begin{tabular}{p{7.0cm}p{2.8cm}p{3.0cm}p{3.0cm}}
 %------------------Basic info-----------
- %  \textsc{Address:}
-   {\small 6\#325, Zisong Apt, 1037 Luoyu Rd, Wuhan, 430074, China}
-  %&\textsc{Phone:}
-  & \large{\Telefon} {\small +86 131 6323 8726}
-   %\multirow{3}{*}{ \Huge Qichen \textsc{Song}} \\
+ % \textsc{Address:}
+ {\small 9000 Hunters Mill Rd. Apt. C, Blacksburg, VA, US}
+  % &\textsc{Phone:}
+  % \large{\Telefon}
+&  {\small +1 (540) 315 6422}
   % &\textsc{email:}
-   & \large{\Letter} {\small \href{mailto:kitchensong@gmail.com}{\textcolor{black}{kitchensong@gmail.com}}}\\
+  % \large{\Letter}
+& {\small \href{mailto:hanghu@vt.edu}{\textcolor{black}{hanghu@vt.edu}}}
+&{\small people.cs.vt.edu/hanghu/}
+   \\
 %--------------------TITLE-------------
 %\par{
  % { \Huge Qichen \textsc{Song}
@@ -68,26 +68,28 @@
 %Section: Education
 
 \section{Education}
+\begin{tabular}{p{13.5cm}p{0.5cm}r}
+\textbf{Virginia Tech} && \emph{2016.09-present} \\
+\hspace{1em} Ph.D. Student in Computer Science, Advisor: Gang Wang && \vspace{-0.5em} \\
+\multicolumn{3}{c}{} \\
 
-\begin{tabular}{rp{11.7cm}|l}
-    &  \hspace{-1em} \textbf{Huazhong University of Science and Technology (HUST)}, \emph{2011.09-present}&\textbf{Standardized Tests}\\
-   &\hspace{-1em} Major: Thermal Energy and Power Engineering
-         &TOFEL: 107 (R29 L30 S23 W25) \\
-&\hspace{-1em} Degree: Bachelor of Engineering, expected \emph{2015.06} &GRE: V152+Q170+AW4.0 \\
-&\hspace{-1em} Overall GPA: \textbf{92.2/100} \hspace{1em} Overall Rank: \textbf{1/366}&\\
+\textbf{Huazhong University of Science and Technology} && \emph{2012.09-2016.06} \\
+\hspace{1em} B.E. in Electronic Packagincg Technology && \vspace{-0.5em} \\
+
 \end{tabular}
 
-%Section: Research Experience
+
 \section{Research Experience}
 \begin{tabular}{p{13.5cm}p{0.5cm}r}
 \textbf{Research on coupling between different phonon modes in graphene} && \emph{2014.09-present} \\
-\hspace{1em} Advisor: Prof. Nuo Yang, Dr. Meng An \hspace{3em} \emph{Nano Heat Group} && \vspace{-0.5em}\\
+\hspace{1em} Advisor: Prof. Nuo Yang, Dr. Meng An \hspace{3em} \emph{Nano Heat Group} && \vspace{-0.5em} \\
 \begin{compactitem}
        %\item Independly programming \vspace{0.2em}
        \item Built an model to manipulate in-plane/out-of-plane temperature gradient\vspace{0.2em}
        \item Investigated coupling between different phonon modes (TA, LA and ZA) and their contributions to thermal conductivity\vspace{0.2em}
      \end{compactitem}&&\vspace{-2.2em} \\
 \multicolumn{3}{c}{} \\
+
 \textbf{Research on modulation of thermal conductivity in folded graphene} && \emph{2013.11-present} \\
 \hspace{1em} Advisor: Prof. Nuo Yang \hspace{9em} \emph{Nano Heat Group} && \vspace{-0.5em}\\
 \begin{compactitem}
@@ -96,6 +98,7 @@
        \item Obtained size-independent thermal conductivity that characterizes large-area folded graphene's thermal properties
      \end{compactitem}&&\vspace{-2.2em} \\
 \multicolumn{3}{c}{} \\
+
 \textbf{Research on the temperature and flow field analysis of sapphire crystal growth}  && \emph{2013.08-2013.11} \\
 \hspace{1em} Advisor: Prof. Haisheng Fang \hspace{6.7em} \emph{Multiscale Process Modeling Lab}  && \vspace{-0.5em} \\
 \begin{compactitem}
@@ -112,18 +115,7 @@
        \item Made the prototype of the device
      \end{compactitem}&&\vspace{-1em} \\
 \multicolumn{3}{c}{} \vspace{-1.5em} \\
-  %\textsc{2007 - 2008} & \emph{Intern developer} at \textbf{PT Comunicações}, Lisboa\\
-  %& \begin{compactitem}
-  %  \item Helped to develop core funcionality in an IT infrastructure monitoring solution
- %  \end{compactitem}\vspace{-2em} \\
-%\multicolumn{2}{c}{} \\
 
-
-\end{tabular}
-
-\section{Patent}
-\begin{tabular}{p{15.5cm}p{1cm}}
-\textbf{Q.C. Song} et al, `An electricity generating device by utilizing small wave energy' (CN201420634269.0) &\\
 \end{tabular}
 
 \section{Honors and Awards}
@@ -137,7 +129,6 @@
 \textbf{Excellent Award in the 3rd National Water Resource Innovation Design Competition}  & \emph{2013.07}\\
 \end{tabular}
 
-
 \section{Internship Experience}
 \begin{tabular}{p{15.3cm}r}
 \textbf{Summer Intership at Shangu Power Co.,Ltd.}, Xi'an &\hspace{0.5em}\emph{2014.06}\vspace{-0.5em} \\
@@ -147,6 +138,7 @@
      \end{compactitem}&\vspace{-2em} \\
 \multicolumn{2}{c}{}\vspace{-0.5em} \\
 \end{tabular}
+
 \section{Computer Skills}
 \begin{tabular}{p{15.8cm}l}
  \hspace{-1em} FORTRAN90(MPI), C++, Fluent, AutoCAD, MATLAB/Simulink, {\fb \LaTeX}  &\\
