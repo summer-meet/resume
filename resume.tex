@@ -67,7 +67,7 @@
 \begin{flushleft}
 \hspace{1em} \textbf{Objective:} Summer Internship \\
 \hspace{1em} \textbf{Language:} Python (proficient), C++/C (prior experience), Java (prior experience) \\
-\hspace{1em} \textbf{Skill:} Scikit-learn (Data Analytics), Latex, Flask (Python Back-end), HTML/CSS\\
+\hspace{1em} \textbf{Skill:} Scikit-learn (Data Analytics), Gensim (Topic Modeling), Flask (Python Backend), HTML/CSS, \LaTeX, BIND, Postfix, Dovecot, Linux, Matlab\\
 \end{flushleft}
 
 \section{Education}
@@ -76,93 +76,82 @@
 \textbf{Huazhong Univerisity of Science and Technology}, B.E. in Electronic Packaging Technology && \emph{2012.09-2016.06} \\
 \end{tabular}
 
-\section{Work Experience}
+\section{Experience}
 \begin{tabular}{p{13.5cm}p{0.5cm}r}
 
 \textbf{Data Analytics Intern} at \textbf{Geetest}, Wuhan, China && \emph{2015.10-2015.12} \\
-\hspace{1em} Geetest is using the mouse movement data to do man-machine verification&& \vspace{0em} \\
+\hspace{1em} Geetest is using the mouse movement data to do man-machine verification&& \vspace{-0.5em}\\
 \begin{compactitem}
-  \item Implemented algorithms including gradient descent decision tree ensemble\vspace{0.2em}
-  \item Deployed machine learning algorithms using spark\vspace{0.2em}
+  \item Implemented ML algorithms including gradient descent decision tree ensemble
+  \item Deployed machine learning algorithms using spark
 \end{compactitem}&&\vspace{-2.2em} \\
 \multicolumn{3}{c}{} \\
 
 \textbf{Graduate Research Assistant} at \textbf{Virginia Tech}, Blacksburg, US && \emph{2017.02-present} \\
-\hspace{1em} Deception and Misunderstanding: Analyzing Email Spoofing from User Perspectives && \vspace{0em} \\
+\hspace{1em} Deception and Misunderstanding: Analyzing Email Spoofing from User Perspectives && \vspace{-0.5em}\\
 \begin{compactitem}
-  \item Submitted to the Network and Distributed System Security Symposium 2018
-  \item Analyzed how email service handle forged emails
-  \item Measured the SPF and DMARC records of the top 1 million domains
-  \item Did role-play and deceptive user studies to analyze how effective existing warning mechanisms are
-  
+  \item First author, submitted to the NDSS 2018
+  \item Scanned and analyzed the top 1 million domains' SPF and DMARC records
+  \item Did role-play and deceptive user studies to test warning mechanisms
+\end{compactitem}&& \vspace{-1em}\\
+
+\hspace{1em} Email Service Server and DNS Server Set Up && \vspace{-0.5em}\\
+\begin{compactitem}
+  \item It can answer DNS queries and host virtual domains to send and receive emails
+  \item Set up BIND for DNS, postfix for SMTP and dovecot for POP3 and IMAP
 \end{compactitem}&&\vspace{-2.2em} \\
 \multicolumn{3}{c}{} \\
 
 \end{tabular}
 
-\section{Programming Projects}
+\section{Project}
 \begin{tabular}{p{13.5cm}p{0.5cm}r}
 
 \textbf{Tinder Dating Robot in Python} && \emph{2017.06-2017.07} \\
-\hspace{1em} It can finish all the basic functions of tinder including like or super like people and && \vspace{-0.5em}\\
-\hspace{1em} send and receive messages && \vspace{-0.5em} \\
+\hspace{1em} It can finish all the basic functions of Tinder including like and  messages&&\vspace{-0.5em} \\
 \begin{compactitem}
-  \item Used HTTP proxy to monitor tinder activity to get its HTTP api call\vspace{0.2em}
-  \item Wrote multithreading script to auto like people, receive messages and get updates\vspace{0.2em}
+  \item Used HTTP proxy to monitor tinder activity to get its RESTful APIs
+  \item Wrote multithreading script to auto like people, receive messages and get updates
 \end{compactitem}&&\vspace{-2.2em} \\
 \multicolumn{3}{c}{} \\
 
 
-\textbf{Email Service Server and DNS Server Set Up} && \emph{2017.05-2017.06} \\
-\hspace{1em} It can answer DNS queries and host virtual domains to send and receive emails && \vspace{-0.5em} \\
+\textbf{Twitter User Gender Classifier} && \emph{2017.02-2017.06} \\
+\hspace{1em} Used screen name, profile image, self-description, tweets to classify user gender&&\vspace{-0.5em} \\
 \begin{compactitem}
-  \item Set up BIND, postfix and dovecot \vspace{0.2em}  
+  \item Cleaned data and queried profile image of users by using Twitter RESTful API
+  \item Built random forest, naive bayes, logistic regression, logit boosting in Weka
 \end{compactitem}&&\vspace{-2.2em} \\
 \multicolumn{3}{c}{} \\
 
 
-\textbf{Extensible Shell in C} && \emph{2016.09-2016.10} \\
-\hspace{1em} Simple extensible shell program && \vspace{-0.5em} \\
+\textbf{Extensible Shell \& Memory Allocator in C} && \emph{2016.09-2016.10} \\
+\hspace{1em} Simple extensible shell program and memory allocator library && \vspace{-0.5em} \\
 \begin{compactitem}
-  \item Support tasks management (jobs, fg, bg, kill, stop, ctrl+z, ctrl+c) \vspace{0.2em}
-  \item Support file I/O, I/O redirection and pipeline \vspace{0.2em}
-  \item Support plugins and terminal exclusive app like vim \vspace{0.2em}  
+  \item The shell supported tasks management (jobs, fg, bg, kill, stop, ctrl+z, ctrl+c) \vspace{0.2em}
+  \item The shell supported file I/O, I/O redirection and pipeline \vspace{0.2em}
+  \item The shell supported plugins and terminal exclusive app like vim \vspace{0.2em}  
+  \item Memory allocator supported memory allocate, free and reallocate \vspace{0.2em}
 \end{compactitem}&&\vspace{-2.2em} \\
 \multicolumn{3}{c}{} \\
 
 
-\textbf{Thread Pool in C} && \emph{2016.09-2016.10} \\
-\hspace{1em} It runs fixed number of threads to finish large number of task submission && \vspace{-0.5em} \\
+\textbf{Thread Pool \& Multithreaded HTTP Server in C} && \emph{2016.09-2016.10} \\
+\hspace{1em} Implemented a simple HTTP server running on a self-implemented thread pool && \vspace{-0.5em} \\
 \begin{compactitem}
-  \item Support task submission and result returning\vspace{0.2em}
-  \item Fixed number of threads working together to support large number of tasks
-\end{compactitem}&&\vspace{-2.2em} \\
-\multicolumn{3}{c}{} \\
-
-
-\textbf{Memory Allocator in C} && \emph{2016.10-2016.11} \\
-\hspace{1em} It's a dynamic memory allocator && \vspace{-0.5em} \\
-\begin{compactitem}
-  \item Support memory allocate, free and reallocate \vspace{0.2em}
-\end{compactitem}&&\vspace{-2.2em} \\
-\multicolumn{3}{c}{} \\
-
-
-\textbf{Multithreaded HTTP Server in C} && \emph{2016.11-2016.12} \\
-\hspace{1em} It listens on port 80 and answer HTTP requests && \vspace{-0.5em} \\
-\begin{compactitem}
-  \item Support HTTP get requests for static file and CGI program\vspace{0.2em}
+  \item The server supported HTTP get requests for static file and CGI program\vspace{0.2em}
+  \item The thread pool supported task submission and result returning\vspace{0.2em}
 \end{compactitem}&&\vspace{-2.2em} \\
 \multicolumn{3}{c}{} \\
 
 \end{tabular}
 
-% \section{Awards}
-% \begin{tabular}{l}
-% \textbf{2015} Meritorious Winner in the Interdisciplinary Contest in Modeling, COMAP \\
-% \textbf{2014} National Scholarship, Merit Student, HUST \\
-% \textbf{2013} Scholarship of Academic Excellence, Self-Improvement Scholarship, Excellent Student Cadre, HUST \\
-% \textbf{2012} Scholarship for the Excellent Freshman, HUST \\
-% \end{tabular}
 
+\section{Award}
+\begin{tabular}{p{14cm}p{1.5cm}r}
+Meritorious Winner in the Interdisciplinary Contest in Modeling, COMAP  && \emph{2015} \\
+National Scholarship, Merit Student, HUST && \emph{2014} \\
+Scholarship of Academic Excellence, Self-Improvement, Excellent Student Cadre, HUST && \emph{2013} \\
+Scholarship for the Excellent Freshman, HUST && 2012\\
+\end{tabular}
 \end{document}

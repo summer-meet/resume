@@ -1,7 +1,7 @@
-all: cv.pdf
+all: resume.pdf
 	
-cv.pdf: cv.tex
-	xelatex cv.tex && xelatex cv.tex && xelatex cv.tex
+resume.pdf: resume.tex
+	xelatex resume.tex && xelatex resume.tex && xelatex resume.tex
 
 clean:
 	rm -rf *.{aux,log,out,pdf}
